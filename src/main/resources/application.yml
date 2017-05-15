@@ -1,0 +1,23 @@
+
+---
+spring:
+  profiles: dev
+
+security:
+  user:
+    password: user
+
+server:
+  port: 8000
+
+vcsreader:
+  defaultReadInterval: 1
+  repositories:
+    - name: ttleague
+      type: hg
+      url: https://bitbucket.org/ttleague/ttleague
+
+---
+spring:
+  profiles: prod
+
