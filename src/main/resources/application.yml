@@ -19,5 +19,9 @@ vcsreader:
 
 ---
 spring:
-  profiles: prod
+  profiles: heroku-stage
+
+security:
+  user:
+    password: user
 
