@@ -1,4 +1,4 @@
-package com.tieto.batla.batla;
+package com.tieto.batla.app;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
